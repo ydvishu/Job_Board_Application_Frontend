@@ -11,7 +11,7 @@ function Page() {
     const [site, setSite] = useState('');
     const [displayMoodle, setDisplayMoodle] = useState(0)
 
-
+    // function to add data to the backend about a new job
     const postData = async (data) => {
         try {
       

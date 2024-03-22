@@ -2,6 +2,7 @@
 import JobCardEdit from '@/components/JobCardEdit'
 import React, { useEffect, useState } from 'react'
 
+// function to get the data of all the jobs that is available on the backend
 async function getJobData() {
 
     try {

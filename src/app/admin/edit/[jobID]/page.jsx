@@ -38,7 +38,7 @@ export default function Page({ params }) {
     
 
     const jobID = params.jobID
-
+    // function to edit out data at the backend
     const postJobData = async (jobID,jobData) => {
         try {
           
