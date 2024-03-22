@@ -51,9 +51,11 @@ export default function Home() {
 
     {allJobData?allJobData.data.map((jobData)=>{
       return (
+        <div key={jobData._id}>
         <JobCards jobData={jobData}/>
-      )
-    }):<></>}
+        </div>
+      )}
+    ):<></>}
     
     </div>
     </div>

@@ -46,7 +46,10 @@ function Edit() {
 
                 {allJobData ? allJobData.data.map((jobData) => {
                     return (
+                        <div key={jobData._id}>
+
                         <JobCardEdit jobData={jobData} setRefresh={setRefresh} />
+                        </div>
 
                     )
                 }) : <></>}
